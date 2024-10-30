@@ -89,11 +89,8 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : @c0u7ibaly
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
+  username               : c0u7ibaly
+
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -114,28 +111,22 @@ analytics:
 author:
   name             : "Brehima Coulibaly"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "InfoSec Enthusiast, Jack of all trades, Master of few?. I write about CTFs, Hacking, Forensics, Reverse Engineering, and all things of interest to me"
+  bio              : "InfoSec Enthusiast, Jack of all trades, Master of few?. 
+                    I write about CTFs, Hacking, Forensics, Reverse Engineering, and all things of interest to me"
   location         : "Somewhere"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+    
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/brehima-coulibaly/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/bcoulibaly1337/bcoul"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/bcoulibaly1337"
+    
 
 # Site Footer
 footer:
@@ -296,9 +287,9 @@ tag_archive:
 #   layouts:
 #     category: archive-taxonomy
 #     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+permalinks:
+  category: /categories/:name/
+  tag: /tags/:name/
 
 
 # HTML Compression
