@@ -23,7 +23,7 @@ Difficulty: Medium
 Skills Required: Active Directory fundamentals, Windows privilege escalation
 Skills Learned: ADIDNS manipulation, gMSA exploitation, Kerberos delegation
 
-# Intelligence
+# Summary
 
 Intelligence was quite a fun and unique box for me. It allows exploring interesting Active Directory topics like ADIDNS poisoning, constrained delegation, and gMSA.
 
